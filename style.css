@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Banner Image.png");
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px;
+}
+
+.banner-heading {
+  text-align: center;
+  color: white;
+  padding: 200px 100px;
+}
+.banner-heading h1 {
+  font-weight: bolder;
+  font-size: 72px;
+  padding-bottom: 80px;
+}
+.banner-heading h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.discount-div {
+  margin: 30px auto;
+  text-align: center;
+}
+.discount-div h3 {
+  color: red;
+  font-weight: bold;
+  size: 24px;
+  margin-bottom: 30px;
+}
+#discount-div-header {
+  color: red;
+  font-weight: bolder;
+  font-size: 88px;
+}
+.section-banner {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.171)),
+    url("/images/Vectorrr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 100px 50px;
+  border-radius: 30px;
+  margin: 20px 30px;
+}
+.section-banner-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-part {
+  margin: 0px auto;
+  width: 50%;
+}
+.img-part {
+  margin: 0px auto;
+}
+.text-part h1 {
+  font-weight: bolder;
+  font-size: 64px;
+}
+.text-part > a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  size: 25px;
+  margin: 30px 0px;
+}
+.date-time-section {
+  background: linear-gradient(to bottom, rgba(251, 233, 233, 1), #ffffff);
+  text-align: center;
+  padding: 100px;
+  margin: 30px 30px;
+  border-radius: 30px;
+  line-height: 2em;
+}
+.date-time-section > button {
+  font-weight: 800;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.commonn-style-date-time {
+  color: red;
+}
+.new-best-offer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 50px;
+}
+.text-container {
+  width: 100%;
+}
+.image-container {
+  width: 100%;
+  margin-right: 150px;
+}
+.date-text-container {
+  width: 100%;
+}
+.image-container > img {
+  padding: 30px;
+  border: 10px solid red;
+  border-radius: 50%;
+  margin-left: 80px;
+}
+.holiday-section {
+  height: 650px;
+  margin: 120px 200px;
+}
+.holiday-details * {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.holiday-details span {
+  color: #f00;
+}
+.holiday-section-photos {
+  height: 460px;
+  background-image: url("images/Rectangle\ 1.png"),
+    url("images/Rectangle\ 2.png");
+  background-size: 280px 280px, 100% 180px;
+  background-repeat: no-repeat;
+  background-position: top right, bottom;
+  position: relative;
+  margin-top: 50px;
+}
+.holiday-section-photos .holiday-off {
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: 1120px;
+  top: 70px;
+}
+.holiday-section-photos .holiday-giftbox {
+  height: 306px;
+  width: 400px;
+  position: absolute;
+  top: 90px;
+  right: 920px;
+}
+
+.portfolio-section {
+  height: 700px;
+  margin: 120px 200px;
+}
+.portfolio-section h4 {
+  color: #f00;
+  margin-bottom: 10px;
+}
+.portfolio-section p {
+  margin-bottom: 50px;
+}
+
+.products {
+  display: inline-block;
+}
+.products img {
+  height: 300px;
+  width: 298px;
+  margin: 5px;
+}
+.products img:hover {
+  height: 305px;
+  width: 305px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  transform: scale(1);
+}
+.subscribe-section {
+  height: 400px;
+  margin: 270px 200px 120px 200px;
+  text-align: center;
+  padding-top: 80px;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-section img {
+  height: 120px;
+  width: 120px;
+}
+.subscribe-section .subscribe {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.subscribe input {
+  padding: 10px 100px 10px 15px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+}
+.subscribe button {
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  background: #f00;
+  color: #fff;
+  padding: 12px 25px;
+}
+
+footer {
+  background: #070211;
+  height: 400px;
+  width: 100%;
+  padding-top: 100px;
+  color: #fff;
+  font-family: Inter;
+}
+
+footer hr {
+  margin: 30px 240px;
+}
+.address-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon-container {
+  text-align: center;
+}
+.social-icon-container img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.copyright-section {
+  display: flex;
+  justify-content: space-around;
+}
+.copyright-section a {
+  text-decoration: none;
+  color: #fff;
+}
